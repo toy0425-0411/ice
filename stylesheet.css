@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header img {
+    margin: auto;
+    display: block;
+    padding: 15px;
+}
+
+.hero {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 2s;
+
+}
+
+.hero img.current {
+    opacity: 1;
+}
+
+
+#miyake {
+    background-color: rgb(244, 223, 227);
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#miyake a {
+    border: 2px solid rgb(181, 56, 77);
+    padding: 5px;
+    background-color: aliceblue;
+    color: rgb(181, 56, 77);
+
+}
+
+#miyake a li:hover {
+    background-color: rgb(181, 56, 77);
+    color: aliceblue;
+}
+
+.mi h1 {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.mi h2 {
+    color: rgb(181, 56, 77);
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+}
+
+.mi p {
+    width: 80%;
+    padding: 15px;
+    line-height: 30px;
+
+}
+
+.ya img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.ke article:nth-last-of-type(2) {
+    flex-direction: row-reverse;
+}
+
+#ume {
+    width: 20%;
+    margin: auto;
+    display: block;
+    padding: 30px;
+}
+
+.osi {
+    display: flex;
+    gap: 30px;
+    margin: 0% 20%;
+}
+
+#syo {
+    width: 20%;
+    margin: auto;
+    display: block;
+    padding: 30px;
+}
+
+#kaki h2 {
+    text-align: center;
+    color: rgb(181, 56, 77);
+}
+
+#kaki div {
+    display: flex;
+    margin: 0 10%;
+    padding: 20px;
+}
+
+#kaki p {
+    width: 80%;
+    margin: 0 10%;
+    padding: 2%;
+    line-height: 30px;
+}
+
+#kaki a {
+    border: 2px solid rgb(181, 56, 77);
+    padding: 10px;
+    color: rgb(181, 56, 77);
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+}
+
+#to {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mu img {
+    width: 100%;
+    padding: 30px;
+    overflow: hidden;
+}
+
+#zu {
+
+    display: block;
+    margin: 0 auto;
+    animation: abc 3000ms linear;
+}
+
+@keyframes abc {
+    0% {
+        scale: 0;
+        opacity: 0;
+    }
+
+    50% {
+        scale: 1;
+        opacity: 1;
+    }
+
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
+}
