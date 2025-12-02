@@ -172,31 +172,14 @@ header img {
 }
 
 
-@media screen and (min-width:390px) {
-   .hero{
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-    }
-}
-
-
-@media screen and (min-width:390px) {
-  
-    
-}
-
-@media screen and (max-width:390px) {
+@media (max-width:390px) {
      .hero{
         width: 100%;
         height: auto;
-        display: block;
-        margin: 0 auto;
     }
    #miyake{
-        width: 80%;
-        display: block;
-        margin: 0 auto;
+        width: 100%;
+       height: auto;
     }
    #kaki{
     text-align: center;
