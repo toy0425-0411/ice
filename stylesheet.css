@@ -87,6 +87,7 @@ header img {
     flex-direction: row-reverse;
 }
 
+
 #ume {
     width: 20%;
     margin: auto;
@@ -98,6 +99,7 @@ header img {
     display: flex;
     gap: 30px;
     margin: 0% 20%;
+    flex-wrap: wrap;
 }
 
 #syo {
@@ -116,6 +118,10 @@ header img {
     display: flex;
     margin: 0 10%;
     padding: 20px;
+}
+
+#kaki div img{
+    flex-wrap: wrap;
 }
 
 #kaki p {
@@ -173,18 +179,26 @@ header img {
 
 
 @media (max-width:390px) {
+     header {
+        width: 100%;
+    }
      .hero{
         width: 100%;
         height: auto;
     }
-   #miyake{
-        width: 100%;
-       height: auto;
-    }
-   #kaki{
-    text-align: center;
-   }
-
+   
+.osi{
+    width: 100%;
+}
+.osi img{
+ width: 100%;
+}
+.kaki{
+    width: 100%;
+}
+.kaki img{
+    width: 100%;
+}
 }
 
 
